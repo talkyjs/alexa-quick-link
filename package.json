@@ -1,6 +1,6 @@
 {
   "name": "@talkyjs/alexa-quick-link",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple link tag generator for Alexa Quick Link",
   "author": {
     "name": "Hidetaka Okamoto"
