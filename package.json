@@ -27,6 +27,11 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
   },
+  "repository": "https://github.com/talkyjs/alexa-quick-link",
+  "homepage": "https://alexa-quick-link-example.netlify.app/",
+  "bugs": {
+    "url": "https://github.com/talkyjs/alexa-quick-link/issues"
+  },
   "dependencies": {
     "@stencil/core": "1"
   },
