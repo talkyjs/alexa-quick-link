@@ -4,7 +4,7 @@ import { Component, Prop, h} from '@stencil/core';
   tag: 'alexa-quick-link',
   shadow: true,
 })
-export class MyComponent {
+export class AlexaQuickLink {
   /**
    * Your skill id
    */

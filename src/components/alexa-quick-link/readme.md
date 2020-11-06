@@ -1,4 +1,4 @@
-# my-component
+# alexa-quick-link
 
 
 
@@ -7,11 +7,11 @@
 
 ## Properties
 
-| Property | Attribute | Description     | Type     | Default     |
-| -------- | --------- | --------------- | -------- | ----------- |
-| `first`  | `first`   | The first name  | `string` | `undefined` |
-| `last`   | `last`    | The last name   | `string` | `undefined` |
-| `middle` | `middle`  | The middle name | `string` | `undefined` |
+| Property  | Attribute  | Description   | Type     | Default     |
+| --------- | ---------- | ------------- | -------- | ----------- |
+| `rel`     | `rel`      |               | `string` | `undefined` |
+| `skillId` | `skill-id` | Your skill id | `string` | `undefined` |
+| `target`  | `target`   |               | `string` | `undefined` |
 
 
 ----------------------------------------------

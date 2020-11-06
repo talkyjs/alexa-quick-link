@@ -1,10 +1,10 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { MyComponent } from './my-component';
+import { AlexaQuickLink } from './alexa-quick-link';
 
 describe('alexa-quick-link', () => {
   it('renders', async () => {
     const { root } = await newSpecPage({
-      components: [MyComponent],
+      components: [AlexaQuickLink],
       html: '<alexa-quick-link></alexa-quick-link>',
     });
     expect(root).toEqualHtml(`
@@ -20,7 +20,7 @@ describe('alexa-quick-link', () => {
 
   it('renders with values', async () => {
     const { root } = await newSpecPage({
-      components: [MyComponent],
+      components: [AlexaQuickLink],
       html: `<alexa-quick-link skill-id="skill-id">Click me</alexa-quick-link>`,
     });
     expect(root).toEqualHtml(`
@@ -37,7 +37,7 @@ describe('alexa-quick-link', () => {
 
   it('renders with values and a tag attributes', async () => {
     const { root } = await newSpecPage({
-      components: [MyComponent],
+      components: [AlexaQuickLink],
       html: `<alexa-quick-link skill-id="skill-id" href="aaaa" target="_blank" rel="noopener">Click me</alexa-quick-link>`,
     });
     expect(root).toEqualHtml(`
